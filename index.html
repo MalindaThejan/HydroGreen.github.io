@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Name</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #E57373;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            background-color: #FFCDD2;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #B0BEC5;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Restaurant Name</h1>
+</header>
+
+<nav>
+    <a href="#menu">Menu</a> |
+    <a href="#reservations">Reservations</a> |
+    <a href="#gallery">Gallery</a> |
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="menu">
+    <h2>Menu</h2>
+    <!-- Add your menu items here -->
+    <ul>
+        <li>Appetizers</li>
+        <li>Main Courses</li>
+        <li>Desserts</li>
+        <li>Drinks</li>
+    </ul>
+</section>
+
+<section id="reservations">
+    <h2>Reservations</h2>
+    <!-- Add reservation form or booking details here -->
+    <p>To make a reservation, please fill out the form below:</p>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <!-- Add restaurant images here -->
+    <img src="image1.jpg" alt="Restaurant Image 1" width="300">
+    <img src="image2.jpg" alt="Restaurant Image 2" width="300">
+    <img src="image3.jpg" alt="Restaurant Image 3" width="300">
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <!-- Add contact information here -->
+    <p>For inquiries or reservations, please contact us at:</p>
+    <p>Phone: 123-456-7890</p>
+    <p>Email: info@restaurantname.com</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
